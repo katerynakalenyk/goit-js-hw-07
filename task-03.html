@@ -14,21 +14,24 @@
             color: #424242;
             line-height: 1.5;
         }
-        
-      .gallery {
+        .gallery {
         display: flex;
         list-style: none;
-        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
       }
       .gallery-item {
-        width: 720px;
-        height: 480px;
+        width: 480px;
+        height: 270px;
         margin: 15px;
       }
+  
     </style>
 </head>
 
 <body>
+  
     <ul id="gallery"></ul>
 
     <p><a href="index.html">На главную</a></p>
